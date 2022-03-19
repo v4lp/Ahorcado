@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahorcado</title>
+  <link rel="stylesheet" href="css\estilo.css">
+ 
+</head>
+
+<body >
+    <div id="inicio" >
+        <h1>Ahorcado</h1>
+        <br>
+        <button id="iniciar-juego">INICIAR JUEGO</button>
+        <br>
+        <input type="text" id="input-nueva-palabra" placeholder="Escribir Nueva Palabra">
+        <br>
+        <button id="nuevaPalabrabra">AGREGAR PALABRA</button>
+    </div >
+
+    <div id="centro">
+        
+        <canvas id="mycanvas" ></canvas>
+        <div id="ContainerPE" class="dontsee">
+            <h3>Palabras Erroneas</h3>
+            <p  id="PError"></p>
+        </div>
+        <div class="ganar dontsee"></div> 
+        <div class=" dontsee volver"><button id="volverintentar" >Volver a jugar</button></div>
+        <p  id="PalabraConGuion"></p>
+        <div id="centro1" >
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <script type="text/javascript" src="js\canvas.js"></script>
+    <script type="text/javascript" src="js\ahorcado.js"></script>
+</body>
+</html>
+
+
+
