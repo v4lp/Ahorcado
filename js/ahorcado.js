@@ -29,9 +29,6 @@ document.querySelector("#iniciar-juego").addEventListener('click',function inici
     pguion.textContent=palabraconGuion;
 
     elemento.appendChild(pguion);
-
-    alert(palabraSecretra)
-    alert(palabraconGuion)
     var palabra_E = [];
 
     document.querySelector("body").addEventListener('keyup',(event)=>{
